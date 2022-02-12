@@ -1,11 +1,11 @@
-const age = 16;
+const age = 99;
 
-if(age > 18){
-    console.log ("you are good to go!");
-} else if(age < 15){
-    console.log("do your psrents know you're here?");
-} 
-
-else {
-    console.log ("you're not old enough");
+if(age <=13){
+    console.log ("do you're parents know you're here?");
 }
+    else if(age >= 18){
+    console.log ("congrats! you're old!");
+}
+ else {
+    console.log("oops! still too young!");
+} 
