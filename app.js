@@ -18,6 +18,16 @@ const mostFun = "Loki of course."
 
 console.log (`who's the strongest avenger? ${name}, but ${other}. who's the funniest? ${mostFun}`);
 
+function myFunction(){
+    let text = document.getElementById("avengersOpinion").innerHTML;
+    document.getElementById("avengersOponion").innerHTML = 
+    text.replace("Peter Parker", "Spider-man.");
+}
+
+let x = new Date("2000-05-22");
+console.log(Number(x));
+
+
 let day;
 switch (new Date().getDay()) {
     case 0:
@@ -43,4 +53,3 @@ switch (new Date().getDay()) {
         break;
 
 }
-document.getElementById("demo").innerHTML = "Today is" + " " +day;
