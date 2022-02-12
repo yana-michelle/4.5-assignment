@@ -21,26 +21,26 @@ console.log (`who's the strongest avenger? ${name}, but ${other}. who's the funn
 let day;
 switch (new Date().getDay()) {
     case 0:
-        day = "Sunday";
+        day = "-oh no is it sunday already?";
         break;
     case 1:
-            day = "Monday";
+            day = "ugh. monday.";
             break;
     case 2:
-        day = "Tuesday";
+        day = "tuesday. the blandest day of the week.";
         break;
     case 3:
-        day = "Wednesday";
+        day = "wednesday. it's not so bad I guess.";
         break;
     case 4:
-        day = "Thursday";
+        day = "Thursday! so close to freedom!";
         break;
     case 5:
-        day = "Friday";
+        day = "Friday!!!! yay!!! the weekend is here once again!";
         break;
     case 6:
-        day = "Saturday";
+        day = "Saturday!!!!! PARTY!!!!";
         break;
 
 }
-document.getElementById("demo").innerHTML = "Today is" + day;
+document.getElementById("demo").innerHTML = "Today is" + " " +day;
