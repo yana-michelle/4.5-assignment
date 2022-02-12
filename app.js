@@ -9,3 +9,7 @@ if(age <=13){
  else {
     console.log("oops! still too young!");
 } 
+
+const name = "Wanda a.k.a Scarlet Witch";
+
+console.log (`who's the strongest avenger? ${name}`);
