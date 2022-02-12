@@ -10,6 +10,10 @@ if(age <=13){
     console.log("oops! still too young!");
 } 
 
-const name = "Wanda a.k.a Scarlet Witch";
+const name = "In terms pf powers? Wanda a.k.a Scarlet Witch";
 
-console.log (`who's the strongest avenger? ${name}`);
+const other = "In terms of strength? Spider-man.";
+
+const mostFun = "Loki of course."
+
+console.log (`who's the strongest avenger? ${name}, but ${other}. who's the funniest? ${mostFun}`);
